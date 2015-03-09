@@ -20,10 +20,19 @@
 
 
 @interface ARBrowseViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
-@property (nonatomic, strong, readwrite)NSArray *menuLinks;
+@property (nonatomic, strong, readwrite) NSArray *menuLinks;
+@property (nonatomic, assign, readwrite) BOOL shouldAnimate;
 @end
 
 @implementation ARBrowseViewController
+
+- (instancetype)init
+{
+    self = [super init];
+    if (!self) { return nil; }
+    _shouldAnimate = YES;
+    return self;
+}
 
 - (void)viewDidLoad
 {
@@ -70,11 +79,6 @@
     } failure:^(NSError *error) {
         [self ar_removeIndeterminateLoadingIndicatorAnimated:self.shouldAnimate];
     }];
-}
-
-- (BOOL)shouldAnimate
-{
-    return YES;
 }
 
 #pragma mark - UITableViewDelegate

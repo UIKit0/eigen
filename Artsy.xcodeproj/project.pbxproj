@@ -429,6 +429,7 @@
 		CBE939F817FA336C00AD7DDD /* ARArtworkBlurbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 601F029417F336AB00EB3E83 /* ARArtworkBlurbView.m */; };
 		D37E4CFB1A92AC5A00023E2C /* ARAnnotatedMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = D37E4CFA1A92AC5A00023E2C /* ARAnnotatedMapView.m */; };
 		D37E4CFD1A92B29F00023E2C /* ARAnnotatedMapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D37E4CFC1A92B29F00023E2C /* ARAnnotatedMapViewTests.m */; };
+		D3BB62921AAE510F00BBF3D2 /* ARBrowseViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BB62911AAE510F00BBF3D2 /* ARBrowseViewControllerTests.m */; };
 		D3F3FA1F1AAE1BFC00E88359 /* ARBrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F3FA1E1AAE1BFC00E88359 /* ARBrowseViewController.m */; };
 		DCA78A9CCA74D94C34C35156 /* libPods-Artsy Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D6BDCA48472E439B9D79CB /* libPods-Artsy Tests.a */; };
 		E60673B319BE4E8C00EF05EB /* full_logo_white_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E60673B119BE4E8C00EF05EB /* full_logo_white_small@2x.png */; };
@@ -1297,6 +1298,7 @@
 		D37E4CFA1A92AC5A00023E2C /* ARAnnotatedMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAnnotatedMapView.m; sourceTree = "<group>"; };
 		D37E4CFC1A92B29F00023E2C /* ARAnnotatedMapViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAnnotatedMapViewTests.m; sourceTree = "<group>"; };
 		D3AC809B1A9E9493000CB97A /* ARRouter+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ARRouter+Private.h"; sourceTree = "<group>"; };
+		D3BB62911AAE510F00BBF3D2 /* ARBrowseViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARBrowseViewControllerTests.m; sourceTree = "<group>"; };
 		D3F3FA1D1AAE1BFC00E88359 /* ARBrowseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARBrowseViewController.h; path = "Artsy/Classes/View Controllers/ARBrowseViewController.h"; sourceTree = SOURCE_ROOT; };
 		D3F3FA1E1AAE1BFC00E88359 /* ARBrowseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARBrowseViewController.m; path = "Artsy/Classes/View Controllers/ARBrowseViewController.m"; sourceTree = SOURCE_ROOT; };
 		E2C583DC5F5EBC24D3CC3B76 /* Pods.demo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.demo.xcconfig; path = "Pods/Target Support Files/Pods/Pods.demo.xcconfig"; sourceTree = "<group>"; };
@@ -3444,6 +3446,7 @@
 			isa = PBXGroup;
 			children = (
 				E6BC2C3D197EDC950063ED3C /* ARBrowseCategoriesViewControllerTests.m */,
+				D3BB62911AAE510F00BBF3D2 /* ARBrowseViewControllerTests.m */,
 			);
 			name = Browse;
 			sourceTree = "<group>";
@@ -4111,6 +4114,7 @@
 				3CFBE33618C5848900C781D0 /* ARFileUtilsTests.m in Sources */,
 				60327DD21987BA830075B399 /* ARDeveloperOptionsSpec.m in Sources */,
 				3C7294CC196C3E660073663D /* ARShowViewControllerTests.m in Sources */,
+				D3BB62921AAE510F00BBF3D2 /* ARBrowseViewControllerTests.m in Sources */,
 				E6BC2C3E197EDC950063ED3C /* ARBrowseCategoriesViewControllerTests.m in Sources */,
 				3CBB03A8192BA94C00689F89 /* ARFairArtistViewControllerTests.m in Sources */,
 				3CF144B618E4802400B1A764 /* ARSystemTimeTests.m in Sources */,
